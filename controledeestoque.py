@@ -5,7 +5,7 @@ from datetime import datetime
 estoque = []
 contador = 1
 while True:
-    menu = int(input('\ndigite [1] para cadastrar um produto \ndigite [2] para vizualizar \ndigite [3] para sair \n Opção:'))
+    menu = int(input('\ndigite [1] para cadastrar um produto \ndigite [2] para vizualizar os produtos ja cadastrados \ndigite [3] para sair \n Opção:'))
 
     match menu:
         case 1:
